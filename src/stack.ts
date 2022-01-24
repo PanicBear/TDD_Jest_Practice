@@ -49,3 +49,4 @@ class StackImpl implements Stack<StackNode> {
   };
   getTop: () => StackNode | undefined = () => this.head;
 }
+export default StackImpl;
