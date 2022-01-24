@@ -1,9 +1,9 @@
-type StackNode = {
+export type StackNode = {
   head?: StackNode;
   value: String | number;
 };
 
-interface Stack<T> {
+export interface Stack<T> {
   push: (value: String | number) => void;
   pop: () => T;
   getSize: () => number;
